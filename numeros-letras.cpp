@@ -115,10 +115,7 @@ void GenerarNumerosAleatorios()
 }
 int main()
 {
-    for (int k = 1; k <= 999999; k++) {
-        string aux = GetCientosDeMiles(k);
-        cout << k << " : " << aux << endl;
-    }
+    
     GenerarNumerosAleatorios();
     return 0;
 }
